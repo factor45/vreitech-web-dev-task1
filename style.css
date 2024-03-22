@@ -1,0 +1,84 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.teams{
+    padding: 8px 15px;
+    font-size: 18px;
+    /* border: 2px solid red; */
+    background-color: #ee31eeed;
+    color: white;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.aboutCompany{
+    margin-top: 10rem;
+}
+
+.members{
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.member{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20vw;
+   
+}
+.member img{
+    width : 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.member .position{
+    color: #ee31eeed;
+    font-style: italic;
+
+}
+
+.container{
+    padding: 10px 80px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.company{
+    /* border: 1px solid black; */
+    padding: 11px 37px;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #ee31eeed;
+    color: white;
+    border-radius: 8px;
+    width: fit-content;
+    margin-bottom: 2rem;
+}
+
+.aboutCompany p{
+    font-size: 18px;
+    text-align: center;
+}
+.aboutCompany h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.ruler{
+    width: 70%;
+    border: 2px dashed #ee31eeed;
+    margin: 2rem 0;
+}
